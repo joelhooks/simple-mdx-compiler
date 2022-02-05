@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/joelhooks/simple-mdx-compiler/issues"
   },
-  "homepage": "https://github.com/joelhooks/simple-mdx-compiler#readme"
+  "homepage": "https://github.com/joelhooks/simple-mdx-compiler#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "^2.0.0"
+  }
 }
