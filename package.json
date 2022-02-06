@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc --outDir dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joelhooks/simple-mdx-compiler.git"
@@ -22,6 +24,7 @@
     "@mdx-js/esbuild": "^2.0.0",
     "@mdx-js/mdx": "^2.0.0",
     "@types/mjml-react": "^2.0.3",
+    "concurrently": "^7.0.0",
     "esbuild": "^0.14.18",
     "esbuild-register": "^3.3.2",
     "express": "^4.17.2",
